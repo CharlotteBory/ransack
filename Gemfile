@@ -5,11 +5,7 @@ gem 'rake'
 
 rails = ENV['RAILS'] || '5-0-stable'
 
-if rails == 'master'
-  gem 'polyamorous', github: 'activerecord-hackery/polyamorous'
-else
-  gem 'polyamorous', '~> 1.3'
-end
+gem 'polyamorous', github: 'CharlotteBory/polyamorous'
 
 gem 'pry'
 
